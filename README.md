@@ -115,8 +115,8 @@ conda config --add channels conda-forge
 ```
 mamba create -n pharokkaENV pharokka
 conda activate pharokkaENV
-install_databases.py -h
-pharokka.py -h
+python3 bin/install_databases.py -h
+python3 bin/pharokka.py -h
 ```
 
 # Usage
